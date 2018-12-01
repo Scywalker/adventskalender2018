@@ -1,15 +1,8 @@
 package controllers;
-
-import javax.inject.Inject;
-
 import play.mvc.*;
 import play.data.*;
 import views.html.*;
 import java.util.Calendar;
-import views.formdata.LoginFormData;
-import play.data.Form;
-import play.data.FormFactory;
-
 /**
  * This controller contains an action to handle HTTP requests
  * to the application's home page.

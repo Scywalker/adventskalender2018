@@ -3,7 +3,6 @@ package controllers;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import java.util.Calendar;
-import java.text.SimpleDateFormat;
 import play.mvc.*;
 import views.html.*;
 
