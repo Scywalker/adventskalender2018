@@ -1,0 +1,34 @@
+@(date: Int)
+
+@defining(play.core.PlayVersion.current) { version =>
+
+@date match{
+	case 1 => {<img src="@routes.Assets.at("images/1.jpg")" />}
+	case 2 => {<img src="@routes.Assets.at("images/2.jpg")" />}
+	case 3 => {<img src="@routes.Assets.at("images/3.jpg")" />}
+	case 4 => {<img src="@routes.Assets.at("images/4.jpg")" />}
+	case 5 => {<img src="@routes.Assets.at("images/5.jpg")" />}
+	case 6 => {<video src="@routes.Assets.at("images/6.mp4")" controls></video>}
+	case 7 => {<img src="@routes.Assets.at("images/7.jpg")" />}
+	case 8 => {<img src="@routes.Assets.at("images/8.jpg")" />}
+	case 9 => {<img src="@routes.Assets.at("images/9.jpg")" />}
+	case 10 => {<img src="@routes.Assets.at("images/10.jpg")" />}
+	case 11 => {<img src="@routes.Assets.at("images/11.jpg")" />}
+	case 12 => {<video src="@routes.Assets.at("images/12.mp4")" controls></video>}
+	case 13 => {<img src="@routes.Assets.at("images/13.jpg")" />}
+	case 14 => {<img src="@routes.Assets.at("images/14.jpg")" />}
+	case 15 => {<img src="@routes.Assets.at("images/15.jpg")" />}
+	case 16 => {<img src="@routes.Assets.at("images/16.jpg")" />}
+	case 17 => {<img src="@routes.Assets.at("images/17.jpg")" />}
+	case 18 => {<img src="@routes.Assets.at("images/18.jpg")" />}
+	case 19 => {<img src="@routes.Assets.at("images/19.jpg")" />}
+	case 20 => {<img src="@routes.Assets.at("images/20.jpg")" />}
+	case 21 => {<img src="@routes.Assets.at("images/21.jpg")" />}
+	case 22 => {<video src="@routes.Assets.at("images/22.mp4")" controls></video>}
+	case 23 => {<img src="@routes.Assets.at("images/23.jpg")" />}
+	case 24 => {<img src="@routes.Assets.at("images/24.jpg")" />}
+	case _ => {<img src="@routes.Assets.at("images/1.jpg")" />}
+}
+
+
+}
