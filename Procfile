@@ -1,1 +1,1 @@
-web: sbt clean stage
+web: sbt runProd
