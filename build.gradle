@@ -24,9 +24,6 @@ model {
 dependencies {
     play "com.typesafe.play:play-guice_$scalaVersion:$playVersion"
     play "com.typesafe.play:play-logback_$scalaVersion:$playVersion"
-
-    playTest "org.assertj:assertj-core:3.6.2"
-    playTest "org.awaitility:awaitility:2.0.0"
 }
 
 repositories {
