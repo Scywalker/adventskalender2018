@@ -1,6 +1,5 @@
 package controllers;
 
-import services.Counter;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import java.util.Calendar;
@@ -18,7 +17,7 @@ import views.html.*;
 public class ImageController extends Controller {
 
     @Inject
-    public ImageController(Counter counter) {}
+    public ImageController() {}
 
     public Result showImage(int day) {
   
