@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/play-adventskalender -Dhttp.port=${PORT}
+web: activator run
