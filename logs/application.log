@@ -1,0 +1,38 @@
+2018-12-01 23:40:31,702 [DEBUG] from play.api.http.HttpConfiguration in play-dev-mode-akka.actor.default-dispatcher-10 - Generated dev mode secret 1a0bb32416f053ea0021904ec0965e1c for app at file:/C:/Users/LucasWeidner/Play/play-adventskalender/target/scala-2.12/classes/application.conf
+2018-12-01 23:40:31,751 [DEBUG] from controllers.AssetsConfiguration in play-dev-mode-akka.actor.default-dispatcher-10 - Using the following cache configuration for assets:
+	 enableCaching = false
+	 enableCacheControl = false
+	 defaultCacheControl = public, max-age=3600
+	 aggressiveCacheControl = public, max-age=31536000, immutable
+	 configuredCacheControl:
+
+
+2018-12-01 23:40:31,924 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-4 - Slf4jLogger started
+2018-12-01 23:40:31,930 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-4 - logger log1-Slf4jLogger started
+2018-12-01 23:40:31,931 [DEBUG] from akka.event.EventStream in application-akka.actor.default-dispatcher-4 - Default Loggers started
+2018-12-01 23:40:32,064 [DEBUG] from play.api.libs.concurrent.ActorSystemProvider in play-dev-mode-akka.actor.default-dispatcher-10 - Starting application default Akka system: application
+2018-12-01 23:40:32,081 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-10 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2018-12-01 23:40:32,416 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-10 - Application started (Dev)
+2018-12-01 23:40:32,889 [TRACE] from play.filters.CSRF in application-akka.actor.default-dispatcher-3 - [CSRF] No check necessary
+2018-12-01 23:40:33,008 [TRACE] from play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1 in application-akka.actor.default-dispatcher-3 - Invoking action with request: GET /
+2018-12-01 23:40:33,022 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-3 - ### Start of action order
+2018-12-01 23:40:33,024 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-3 - 1. play.http.DefaultActionCreator$1()
+2018-12-01 23:40:33,024 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-3 - 2. play.core.j.JavaAction$$anon$1()
+2018-12-01 23:40:33,024 [DEBUG] from play.mvc.Action in application-akka.actor.default-dispatcher-3 - ### End of action order
+2018-12-01 23:40:33,272 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-10 - New connection accepted
+2018-12-01 23:40:33,280 [DEBUG] from akka.io.TcpListener in play-dev-mode-akka.actor.default-dispatcher-8 - New connection accepted
+2018-12-01 23:40:33,331 [TRACE] from play.filters.CSRF in application-akka.actor.default-dispatcher-3 - [CSRF] No check necessary
+2018-12-01 23:40:33,331 [TRACE] from play.filters.CSRF in application-akka.actor.default-dispatcher-6 - [CSRF] No check necessary
+2018-12-01 23:40:33,341 [TRACE] from play.api.mvc.ActionBuilder$$anon$2 in application-akka.actor.default-dispatcher-3 - Invoking action with request: GET /assets/bootstrap/css/bootstrap.css
+2018-12-01 23:40:33,344 [TRACE] from play.filters.CSRF in application-akka.actor.default-dispatcher-7 - [CSRF] No check necessary
+2018-12-01 23:40:33,346 [TRACE] from play.api.mvc.ActionBuilder$$anon$2 in application-akka.actor.default-dispatcher-6 - Invoking action with request: GET /assets/stylesheets/calendar.css
+2018-12-01 23:40:33,348 [TRACE] from play.api.mvc.ActionBuilder$$anon$2 in application-akka.actor.default-dispatcher-7 - Invoking action with request: GET /assets/images/Adventskalendar.jpg
+2018-12-01 23:41:48,762 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-4 - Aborting tcp connection to /0:0:0:0:0:0:0:1:51194 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75000000000 nanoseconds. This is configurable by akka.http.[server|client].idle-timeout.
+2018-12-01 23:41:49,305 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-4 - Aborting tcp connection to /0:0:0:0:0:0:0:1:51198 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75000000000 nanoseconds. This is configurable by akka.http.[server|client].idle-timeout.
+2018-12-01 23:41:49,305 [DEBUG] from akka.actor.RepointableActorRef in play-dev-mode-akka.actor.default-dispatcher-4 - Aborting tcp connection to /0:0:0:0:0:0:0:1:51199 because of upstream failure: akka.http.impl.engine.HttpIdleTimeoutException: HTTP idle-timeout encountered, no bytes passed in the last 75000000000 nanoseconds. This is configurable by akka.http.[server|client].idle-timeout.

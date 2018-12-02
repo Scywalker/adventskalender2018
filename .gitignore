@@ -1,4 +1,6 @@
-logs
+logs	
+target
+!target/universal/play-java-adventskalender-1.1-SNAPSHOT.zip
 build
 /.idea
 /.idea_modules
