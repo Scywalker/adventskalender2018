@@ -1,1 +1,1 @@
-web: target/universal/play-java-adventskalender-1.1-SNAPSHOT/bin/play-java-adventskalender -Dplay.http.secret.key=aVkqlhv9K0UP5:V5i><0Vv]9xTvhC/MeIt]rIdjvdOdmgEVabSt=X/nbdxl1H4b8
+web: target/universal/play-java-adventskalender-1.1-SNAPSHOT/bin/play-java-adventskalender
