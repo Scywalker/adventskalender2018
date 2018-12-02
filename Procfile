@@ -1,1 +1,2 @@
-web: unzip target/universal/play-java-adventskalender-1.1-SNAPSHOT.zip && target/universal/play-java-adventskalender-1.1-SNAPSHOT/bin/play-java-adventskalender
+web: target/universal/stage/bin/play-java-adventskalender -Dhttp.port=${PORT}
+console: target/universal/stage/bin/play-java-adventskalender -main scala.tools.nsc.MainGenericRunner -usejavacp
