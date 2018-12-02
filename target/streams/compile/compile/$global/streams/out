@@ -1,0 +1,20 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\LucasWeidner\Play\play-adventskalender\conf\routes:10:1: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0mGET     /image/:x                  	controllers.ImageController.showImage(x)[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\LucasWeidner\Play\play-adventskalender\app\views\calendar.scala.html:18:80: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(15)[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m			  <div class="span2"><a href="@controllers.routes.ImageController.showImage(15)">15</a></div>[0m
+[0m[[0m[31merror[0m] [0m[0m			                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\LucasWeidner\Play\play-adventskalender\app\views\calendar.scala.html:19:80: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(8)[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m			  <div class="span2"><a href="@controllers.routes.ImageController.showImage(8)">8</a></div>[0m
+[0m[[0m[31merror[0m] [0m[0m			                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\LucasWeidner\Play\play-adventskalender\app\views\calendar.scala.html:20:80: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(20)[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m			  <div class="span2"><a href="@controllers.routes.ImageController.showImage(20)">20</a></div>[0m
+[0m[[0m[31merror[0m] [0m[0m			                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

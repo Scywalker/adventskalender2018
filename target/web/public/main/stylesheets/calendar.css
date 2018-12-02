@@ -1,0 +1,24 @@
+h1{-webkit-font-smoothing:antialiased;
+color: #fff;
+text-align: center;
+margin-top: 10;
+font-size: 48px;}
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+a{text-decoration: none;
+color: #fff;
+font-size: 18px;}
+a:hover
+{   text-decoration: none;
+color: white;}
+body{
+	background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 	
+}

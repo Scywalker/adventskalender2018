@@ -1,0 +1,5 @@
+scalingo create scala-app-adventskalender
+ls
+exit
+playGenerateSecret
+dist

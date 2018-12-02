@@ -1,0 +1,10 @@
+@(date: Integer)
+
+@defining(play.core.PlayVersion.current) { version =>
+
+<img src="@routes.Assets.versioned("images/alibaba.png")"/>
+<p>@System.currentTimeMillis</p>
+
+<div>@date</div>
+
+}
