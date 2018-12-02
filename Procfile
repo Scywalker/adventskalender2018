@@ -1,1 +1,1 @@
-web: ls
+web: ./sbt-dist/bin/sbt run
