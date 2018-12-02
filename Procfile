@@ -1,1 +1,1 @@
-web: sbt
+web: ls
