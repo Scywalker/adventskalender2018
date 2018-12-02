@@ -1,1 +1,1 @@
-web: activator run
+web: start
