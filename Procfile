@@ -1,1 +1,1 @@
-web: sbt compile stage
+web: play run
