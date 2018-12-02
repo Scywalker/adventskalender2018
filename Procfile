@@ -1,1 +1,2 @@
-web: start
+web: sbt
+worker: sbt run
