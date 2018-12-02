@@ -1,1 +1,1 @@
-web: ls
+web: unzip target/universal/play-java-adventskalender-1.1-SNAPSHOT.zip
