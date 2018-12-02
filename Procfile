@@ -1,1 +1,1 @@
-web: sbt runProd
+web: sbt compile stage
